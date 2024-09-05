@@ -18,5 +18,6 @@
 
       echo "<h2>Num is " . $numT . "<h2>"; 
     ?>
+    <a href="test.html">test</a>
 </body>
 </html>
