@@ -5,14 +5,26 @@
 <h1>Matematik-test</h1>
 <form action="evaluate.php" method="post">
    <fieldset>
+       <legend>Namn</legend>
+       <input type="text" name="namn">
+       <br>
        <legend>Frågor</legend>
        <label>4 + 5 = </label>
-       <input type="text" name="q1">
+       <input type="number" name="q1">
        <br>
        <label>3 x 5 = </label>
-       <input type="text" name="q2">
+       <input type="number" name="q2">
        <br>
-       <input type="submit" value="Rätta">
+       <label>Vem är människans bästa vän?</label>
+       <input type="text" name="q3">
+       <br>
+       <label>5 x 10</label>
+       <input type="number" name="q4">
+       <br>
+       <label>9 / 3</label>
+       <input type="number" name="q5">
+       <br>
+       <input type="submit" name="Rätta">
    </fieldset>
 </form>
 </body>
