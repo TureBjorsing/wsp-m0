@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+  <?php include('header.html') ?>
+  
     <h1>PHP - TEST</h1>
     <?php
       $version = PHP_VERSION;
